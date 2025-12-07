@@ -1,3 +1,29 @@
 .container{
     display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 800px;
+    background-color: limegreen;
+    border: 2px solid black;
+    flex-wrap: wrap; 
+    /* multiple type of flex wrap => wrap | nowrap | wrap-revers  */
+    justify-content: center;
+    /* multiple type of justify-content => space-center | flex-start | flex-end | center | space-around   */
+    align-items: center;
+    /* this is sused to align items on vertical axis 
+    multiple types of align items => flex-start | flex-end | strech | center | space-between | space-around | space between | space evenly */
+    align-content: center;
+    gap: 20px;
+}
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'algerian';
+    font-size: large;
+}
+.item3{
+    order: -1;
 }
